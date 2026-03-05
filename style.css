@@ -16,6 +16,34 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  
+
+  img {
+    width: 150px;   
+  }
+
+  h1 {
+    font-size: 1.5rem;   
+    margin-top: 1in;     
+  }
+
+  .link-container {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0 16px;   
+  }
+}
+
+body {
+  padding-bottom: 60px;  
+}
+
+
 h1 {
     text-align: center;
     margin-top: 0.5in;
@@ -75,13 +103,3 @@ h3 {
     color: whitesmoke;
 }
 
-.footer-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    color: whitesmoke;
-    
-}
